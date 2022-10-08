@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size:large;
+    color: white;
+}
+.fcontainer1{
+
+    display:flex;
+    height: 100px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+ column-gap: 50px;
+}
+.fitem1{
+    border:  15px solid lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.fitem1 img{
+    width:200px ;
+    height: 200px;
+}
+.fitem2{
+    border:  15px  dashed lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.fitem2 img{
+    width:200px ;
+    height: 200px;
+}
+.fitem3{
+    border:  15px dotted lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.fitem3 img{
+    width:200px ;
+    height: 200px;
+}
+.fcontainer2{
+
+    display:flex;
+    height: 100px;
+    margin-top: 200px;
+   flex-direction: row;
+   justify-content: center;
+ column-gap: 50px;
+   
+}
+.item1{
+    border:  15px ridge lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.item1 img{
+    width:200px ;
+    height: 200px;
+}
+.item2{
+    border:  15px  groove lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.item2 img{
+    width:200px ;
+    height: 200px;
+}
+.fcontainer3{
+
+    display:flex;
+    height: 100px;
+    margin-top: 200px;
+   flex-direction: row;
+   justify-content: center;
+ column-gap: 50px;
+}
+.tem1{
+    border:  15px double lightseagreen;
+    width: 230px;
+    height: 230px;
+    
+}
+.tem1 img{
+    width:200px ;
+    height: 200px;
+}
+.tem2{
+    width: 200px;
+    height: 200px;
+    
+}
+.tem2 img{
+    width:200px ;
+    height: 200px;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.description{
+    text-align: justify;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    border-top: 10px solid green;
+    border-right: 10px solid magenta;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid crimson;
+    background-color: lightseagreen;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description h3{
+    text-align: center;
+}
+
+footer{
+   background-color: lightseagreen;
+    margin-top: 450px;
+    height: 70px;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 5%;
+}
+li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:large;
+    padding-top: 25px;
+}
+.links{
+    margin-left: 33%;
+}
+li:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    }
